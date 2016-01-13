@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.12.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Dating Website</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Who would you like to date:</h1>
+
+      <p>To match your celeb, we need to know a little about you:</p>
+
+      <form id="celebrity">
+        <label for="age">Age</label>
+        <input id="age" type="text">
+        <label for="gender">Are you interested in a man or a woman?</label>
+        <select id="gender">
+          <option value="female">Female</option>
+          <option value="male">Male</option>
+        </select>
+
+
+        <button type="submit" class="btn">Find my celebrity</button>
+      </form>
+
+      <div id="youShouldDate">
+        <p>You should date: <span id="celeb"></span>. Good luck and best wishes!</p>
+      </div>
+
+      <div id="david">
+        <h2>This is David, what a dreamboat!</h2>
+        <img src="img/david.jpg" alt="A photo of David"/>
+      </div>
+
+      <div id="kristen">
+        <h2>This is Kristen, so young and beautiful.</h2>
+        <img src="img/kristen.jpg" alt="A photo of Kristen"/>
+      </div>
+
+      <div id="jessica">
+        <h2>This is Jessica, what a cutie!</h2>
+        <img src="img/jessica.jpg" alt="This is a photo of Jessica"/>
+      </div>
+
+    </div>
+  </body>
+</html>

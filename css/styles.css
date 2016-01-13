@@ -1,0 +1,14 @@
+.btn {
+  display: block;
+}
+
+#youShouldDate {
+  display: none;
+}
+#david, #kristen, #jessica {
+  display: none;
+}
+img {
+  max-width: 400px;
+  max-height: 400px;
+}
